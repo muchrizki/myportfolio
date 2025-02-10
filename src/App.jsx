@@ -9,6 +9,7 @@ import Navbar from './components/Navbar'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Projects from './components/Projects';
+import Education from './components/Education';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
           {/* certificate */}
           < Route path='/certificate' element={< Certificatepage /> } />
 
+          {/* education  */}
+          < Route path='/education' element={ <Education /> } />
+          
           {/* projects */}
           <Route path='/projects' element={ < Projects /> } />
 

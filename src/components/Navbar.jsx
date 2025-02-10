@@ -16,7 +16,6 @@ function Navbar() {
             } else {
                 navLink[i].classList.add('lg:hidden')
             }
-            
         }
     }
 
@@ -35,15 +34,19 @@ function Navbar() {
           </div>
         </NavLink>
 
+        
+        <NavLink to='/education'>
           <div className="education nav-link p-2 lg:hidden cursor-pointer">
             <img src="src/assets/nav-icons/education.png" alt="education-icon"  className="w-10 hover:drop-shadow-xl"/>
           </div>
+        </NavLink>
 
         <NavLink to='/projects'>
           <div className="project nav-link p-2 lg:hidden cursor-pointer">
             <img src="src/assets/nav-icons/project.png" alt="project-icon"  className="w-10 hover:drop-shadow-xl"/>
           </div>
         </NavLink>
+
 
           <div className="contact nav-link p-2 lg:hidden cursor-pointer">
             <img src="src/assets/nav-icons/contact.png" alt="contact-icon"  className="w-10 hover:drop-shadow-xl"/>

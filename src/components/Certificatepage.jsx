@@ -3,9 +3,10 @@ import { Carousel } from 'react-responsive-carousel';
 import { certificateData } from '../data/certificate';
 
 function Certificatepage() {
-    const certificate = certificateData()
-    console.log(certificate)
-
+    let certificate = certificateData()
+    // console.log(certificate)
+    
+ 
   return (
     <div className="certificate bg-cyan-0 max-w-[1280x] mx-auto p-2 flex flex-col justify-center items-center ">
         
