@@ -24,7 +24,7 @@ const projects = () => {
         {
             'id' : 3,
             'img' : 'src/assets/projects-img/notes-app.png',
-            'title' : 'Aplikasi Daftar Catatang dengan React JS',
+            'title' : 'Aplikasi Daftar Catatan dengan React JS',
             'techStack' : 'React . JavaScript . CSS . HTML',
             'body' : 'Aplikasi ini dibuat sebagai syarat kelulusan kelas Belajar Membuat Aplikasi Web dengan React di Dicoding Indonesia. Aplikasi ini untuk menyimpan daftar catatan dan dapat menghapus, menambah, dan mengedit rak catatan pada tempat archive atau aktif. ',
             'linkCode'  : 'https://github.com/muchrizki/notes-app',
