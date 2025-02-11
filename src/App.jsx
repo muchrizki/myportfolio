@@ -4,7 +4,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 import Certificatepage from './components/Certificatepage';
-import Homepage from './components/homepage'
+import Homepage from './components/Homepage'
 import Navbar from './components/Navbar'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
