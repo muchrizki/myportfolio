@@ -48,10 +48,11 @@ function Navbar() {
         </NavLink>
 
 
+        <NavLink to='/contact'>
           <div className="contact nav-link p-2 lg:hidden cursor-pointer">
             <img src="src/assets/nav-icons/contact.png" alt="contact-icon"  className="w-10 hover:drop-shadow-xl"/>
           </div>
-
+        </NavLink>
           
 
           <div className="btn-nav hidden lg:block hamburger lg:w-5 lg:h-5" onClick={handleNav}>
